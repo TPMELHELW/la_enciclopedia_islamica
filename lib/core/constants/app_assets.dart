@@ -67,7 +67,6 @@ abstract class AppAssets {
   static const String kSoudisIcon = '$rootSvgImages/soudis.png';
   static const String choseImage = '$rootSvgImages/chose_image.svg';
 
-
 // UI ROne images
   static String imgRectangle1 = '$rootImages/img_rectangle_1.png';
 

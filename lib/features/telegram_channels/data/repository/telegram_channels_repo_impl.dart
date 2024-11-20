@@ -4,7 +4,6 @@ import 'package:la_enciclopedia_islamica/core/helpers/get_failure_from_exception
 import 'package:la_enciclopedia_islamica/features/telegram_channels/data/data_sources/telegram_channels_local_data_source.dart';
 import 'package:la_enciclopedia_islamica/features/telegram_channels/data/models/telegram_channels_model.dart';
 import 'package:la_enciclopedia_islamica/features/telegram_channels/domain/repository/telegram_channels_repo.dart';
-import 'package:get/get.dart';
 
 class TelegramChannelsRepoImpl implements TelegramChannelsRepo {
   final TelegramChannelsModelLocalDataSource

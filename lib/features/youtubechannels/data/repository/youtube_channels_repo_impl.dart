@@ -1,5 +1,4 @@
 import 'package:dartz/dartz.dart';
-import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/core/errors/failures.dart';
 import 'package:la_enciclopedia_islamica/core/helpers/get_failure_from_exception.dart';
 import 'package:la_enciclopedia_islamica/features/youtubechannels/data/data_sources/youtube_channels_local_data_source.dart';

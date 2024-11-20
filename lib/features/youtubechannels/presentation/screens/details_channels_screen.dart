@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_assets.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_colors.dart';
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
-import 'package:la_enciclopedia_islamica/core/utils/components/appbar/direction_aware.dart';
+import 'package:la_enciclopedia_islamica/core/widgets/direction_aware.dart';
 import 'package:la_enciclopedia_islamica/features/youtubechannels/data/models/youtube_model.dart';
 import 'package:la_enciclopedia_islamica/features/youtubechannels/presentation/widgets/card_details_channels_widget.dart';
 

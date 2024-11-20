@@ -5,7 +5,6 @@ import 'package:flutter/services.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../../core/constants/app_colors.dart';
-import '../../../../../core/services/easy_loader_service.dart';
 import '../../../data/models/the_key_to_islam_2_model.dart';
 import '../../widget/app_bar_custom.dart';
 

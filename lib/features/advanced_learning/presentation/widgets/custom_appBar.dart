@@ -1,7 +1,7 @@
 // ignore_for_file: camel_case_types, deprecated_member_use
 
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
-import 'package:la_enciclopedia_islamica/core/utils/components/appbar/direction_aware.dart';
+import 'package:la_enciclopedia_islamica/core/widgets/direction_aware.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';

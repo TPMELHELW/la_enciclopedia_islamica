@@ -3,10 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_colors.dart';
-import 'package:la_enciclopedia_islamica/core/helper/extensions/context_size.dart';
 
 import '../../../../core/constants/app_assets.dart';
-import '../../../../core/services/easy_loader_service.dart';
 import '../../../../core/styles/text_styles.dart';
 
 class HadithArabicContainer extends StatelessWidget {
@@ -42,7 +40,7 @@ class HadithArabicContainer extends StatelessWidget {
             ),
           ),
           SizedBox(
-            width: context.width * 0.7,
+            width: MediaQuery.of(context).size.width * 0.7,
             child: Container(
               // padding: const EdgeInsets.only(right: 12),
               constraints: BoxConstraints(

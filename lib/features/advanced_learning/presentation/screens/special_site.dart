@@ -23,11 +23,13 @@ class SpecialSite extends StatelessWidget {
             itemCount: controller.page[controller.selectedPart].length,
             itemBuilder: (context, index) {
               return InkWell(
-                onTap: () {
+                onTap: () async {
                   if (controller.selectedPart == 0) {
-                    // final cc = Get.put(NonMuslimController());
-                    // print(cc.hadithes);
-
+                    final NonMuslimController nonMuslimController =
+                        NonMuslimController.instance;
+                    nonMuslimController.hadithes.isEmpty
+                        ? await nonMuslimController.getCourses()
+                        : null;
                     Get.to(
                       () => NonMuslimTopicsScreen(
                         topics: Get.find<NonMuslimController>()

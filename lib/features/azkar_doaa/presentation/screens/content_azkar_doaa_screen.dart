@@ -39,11 +39,9 @@
 //   }
 // }
 
-import 'package:la_enciclopedia_islamica/core/utils/components/appbar/build_sliver_appbar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../core/constants/app_colors.dart';
 import '../widgets/body_content_azkar_screen.dart';
 import '../widgets/body_content_doaa_screen.dart';
 
@@ -52,19 +50,12 @@ class ContentAzkarDoaasScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String title = Get.arguments["title"];
-    // Get.put(QuranController());
     return Scaffold(
       body: Column(
         children: [
           Expanded(
             child: CustomScrollView(
               slivers: [
-                SliverAppBarWidget(
-                  title: title,
-                  backgroundColor: AppColors.kPrimaryColor,
-                  iconColor: const Color.fromRGBO(42, 44, 65, 1),
-                ),
                 Get.arguments['label'] == "azkar"
                     ? const BodyContentAzkarScreen()
                     : const BodyContentDoaaScreen(),

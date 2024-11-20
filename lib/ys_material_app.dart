@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_pages_routes.dart';
-import 'package:la_enciclopedia_islamica/core/helper/functions/navigation_service.dart';
+import 'package:la_enciclopedia_islamica/core/helpers/navigation_service.dart';
 import 'package:la_enciclopedia_islamica/intial_bindings.dart';
 
 class YsMaterialApp extends StatelessWidget {

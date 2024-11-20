@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
-import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../core/constants/app_colors.dart';
-import '../../../../core/services/easy_loader_service.dart';
 import 'app_bar_custom.dart';
 
 class ListViewCustom extends StatelessWidget {

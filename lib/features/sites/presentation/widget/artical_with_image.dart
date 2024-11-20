@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:la_enciclopedia_islamica/features/sites/presentation/widget/app_bar_custom.dart';
 import '../../../../core/constants/app_colors.dart';
-import '../../../../core/services/easy_loader_service.dart';
 
 class ArticalImageCustom extends StatelessWidget {
   final String dataText;

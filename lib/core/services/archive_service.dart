@@ -7,7 +7,6 @@ import 'package:path_provider/path_provider.dart';
 
 import '../constants/app_assets.dart';
 import '../constants/app_keys.dart';
-import 'easy_loader_service.dart';
 import 'shared_preferences_service.dart';
 
 class ArchiveService extends GetxService {

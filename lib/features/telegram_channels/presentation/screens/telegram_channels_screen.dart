@@ -1,7 +1,7 @@
 import 'package:la_enciclopedia_islamica/core/constants/app_assets.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_colors.dart';
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
-import 'package:la_enciclopedia_islamica/core/utils/components/appbar/direction_aware.dart';
+import 'package:la_enciclopedia_islamica/core/widgets/direction_aware.dart';
 import 'package:la_enciclopedia_islamica/core/widgets/handle_states_widget.dart';
 import 'package:la_enciclopedia_islamica/features/telegram_channels/presentation/controller/telegram_channels_controller.dart';
 import 'package:la_enciclopedia_islamica/features/telegram_channels/presentation/screens/telegram_channels_messages_screen.dart';

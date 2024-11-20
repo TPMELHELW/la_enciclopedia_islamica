@@ -3,7 +3,6 @@ import 'package:la_enciclopedia_islamica/core/constants/app_keys.dart';
 import 'package:la_enciclopedia_islamica/core/services/archive_service.dart';
 import 'package:la_enciclopedia_islamica/core/services/shared_preferences_service.dart';
 import 'package:la_enciclopedia_islamica/features/telegram_channels/data/models/telegram_channels_model.dart';
-import 'package:get/get.dart';
 
 abstract class TelegramChannelsModelLocalDataSource {
   Future<TelegramChannels> getTelegramChannels();

@@ -1,6 +1,5 @@
 import 'package:la_enciclopedia_islamica/core/constants/app_colors.dart';
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
-import 'package:la_enciclopedia_islamica/features/non_muslim/non_muslim_bindings.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/presentation/controller/non_muslim_controller.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/presentation/screens/non_muslim_topic_screen.dart';
 import 'package:flutter/material.dart';

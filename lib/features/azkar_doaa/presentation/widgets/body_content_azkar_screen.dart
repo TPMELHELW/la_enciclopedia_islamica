@@ -5,13 +5,10 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_assets.dart';
 import 'package:la_enciclopedia_islamica/core/constants/app_colors.dart';
-import 'package:la_enciclopedia_islamica/core/helper/extensions/context_size.dart';
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
 import 'package:la_enciclopedia_islamica/features/azkar_doaa/data/models/azkar_model/zikr.dart';
 import 'package:la_enciclopedia_islamica/features/azkar_doaa/presentation/controller/azkar_doaa_controller.dart';
 import 'package:la_enciclopedia_islamica/features/azkar_doaa/presentation/widgets/hadith_arabic_container.dart';
-
-import '../../../../core/services/easy_loader_service.dart';
 
 class BodyContentAzkarScreen extends GetView<AzkarDoaaController> {
   const BodyContentAzkarScreen({super.key});

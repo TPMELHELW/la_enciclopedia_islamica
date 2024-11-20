@@ -1,11 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:get/get.dart';
-import 'package:la_enciclopedia_islamica/features/hadith/hadith_bindings.dart';
-import 'package:la_enciclopedia_islamica/features/hadith/presentation/screens/book_hadithes_screen.dart';
-import 'package:la_enciclopedia_islamica/features/hadith/presentation/screens/content_hadith_screen.dart';
-import 'package:la_enciclopedia_islamica/features/hadith/presentation/screens/hadith_screen.dart';
-import 'package:la_enciclopedia_islamica/features/main/main_bindings.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/non_muslim_bindings.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/presentation/screens/non_muslim_screen.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/presentation/screens/non_muslim_topic_screen.dart';
@@ -103,7 +98,6 @@ import 'package:la_enciclopedia_islamica/features/telegram_channels/presentation
 import 'package:la_enciclopedia_islamica/features/youtubechannels/presentation/screens/details_channels_screen.dart';
 import 'package:la_enciclopedia_islamica/features/youtubechannels/presentation/screens/youtube_channels_screen.dart';
 import 'package:la_enciclopedia_islamica/features/youtubechannels/presentation/youtube_channels_bindings.dart';
-
 import '../../features/azkar_doaa/presentation/screens/content_azkar_doaa_screen.dart';
 import '../../features/sites/bindings/guide_to_islam/guid_to_islam_binding.dart';
 import '../../features/sites/bindings/hisnul_mumin_binding.dart';
@@ -113,7 +107,6 @@ import '../../features/sites/bindings/islam_qa_bindings.dart';
 import '../../features/sites/bindings/saber_el_islam_binding.dart';
 import '../../features/sites/bindings/the_key_to_islam_2_binding.dart';
 import '../../features/sites/bindings/the_key_to_islam_binding.dart';
-// import '../../features/sites/presentation/screen/islam_faith_screen.dart';
 import '../../features/sites/presentation/screen/saber_el_islam/saber_el_islam_screen.dart';
 import '../../features/sites/presentation/screen/the_key_to_islam_2_screen.dart';
 
@@ -233,12 +226,6 @@ abstract class AppPagesRoutes {
       binding: IslamQABindings(),
       transition: Transition.cupertino,
     ),
-    // GetPage(
-    //   name: islamFaith,
-    //   page: () => const IslamFaithScreen(),
-    //   binding: IslamFaithBindings(),
-    //   transition: Transition.cupertino,
-    // ),
     GetPage(
       name: guideToIslam,
       page: () => const GuideToIslamArticalScreen(),
@@ -311,27 +298,7 @@ abstract class AppPagesRoutes {
       binding: SaberElIslamBindings(),
       transition: Transition.cupertino,
     ),
-    // GetPage(
-    //   name: subCategoryScreen,
-    //   page: () => const SubCategoryScreen(),
-    //   transition: Transition.cupertino,
-    // ),
-    // GetPage(
-    //   name: bookHadithesScreen,
-    //   page: () => const BookHadithesScreen(),
-    //   transition: Transition.cupertino,
-    // ),
-    // GetPage(
-    //   name: contentHadithScreen,
-    //   page: () => const ContentHadithScreen(),
-    //   transition: Transition.cupertino,
-    // ),
-    GetPage(
-      name: hadithScreen,
-      page: () => const HadithScreen(),
-      binding: HadithBindings(),
-      transition: Transition.cupertino,
-    ),
+
     GetPage(
       name: nonMuslimScreen,
       page: () => const NonMuslimSectionScreen(),

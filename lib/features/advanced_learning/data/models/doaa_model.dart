@@ -1,6 +1,6 @@
-import 'package:la_enciclopedia_islamica/features/hadith/domain/entities/hadith_entity.dart';
-
 // TODO This is example
+import 'package:la_enciclopedia_islamica/features/advanced_learning/domain/entities/doaa_entity.dart';
+
 class HadithModel extends Hadith {
   const HadithModel({
     required super.name,

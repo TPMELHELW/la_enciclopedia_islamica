@@ -1,6 +1,5 @@
 import 'package:la_enciclopedia_islamica/core/constants/app_colors.dart';
 import 'package:la_enciclopedia_islamica/core/styles/text_styles.dart';
-import 'package:la_enciclopedia_islamica/core/utils/components/appbar/build_sliver_appbar.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/data/models/course_model.dart';
 import 'package:la_enciclopedia_islamica/features/non_muslim/presentation/controller/non_muslim_controller.dart';
 import 'package:flutter/material.dart';
@@ -20,11 +19,6 @@ class NonMuslimSubTopicsScreen extends GetView<NonMuslimController> {
       backgroundColor: AppColors.kPrimaryColor,
       body: CustomScrollView(
         slivers: [
-          SliverAppBarWidget(
-            title: title,
-            // isSearch: true,
-            isPinned: true,
-          ),
           SliverToBoxAdapter(
             child: Container(
               height: MediaQuery.of(context).size.height - 100,

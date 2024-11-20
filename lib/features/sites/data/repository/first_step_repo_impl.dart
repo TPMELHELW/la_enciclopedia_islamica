@@ -1,6 +1,5 @@
 import 'package:dartz/dartz.dart';
 import '../../../../core/errors/failures.dart';
-import 'package:get/get.dart';
 import '../../../../core/helpers/get_failure_from_exception.dart';
 import '../../domain/entities/fixed_entities.dart';
 import '../../domain/repository/fixed_repository.dart';

@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/features/youtubechannels/data/models/youtube_model.dart';
 
 abstract class YoutubeChannelsModelLocalDataSource {

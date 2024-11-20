@@ -9,8 +9,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 import 'package:la_enciclopedia_islamica/features/sites/presentation/widget/app_bar_custom.dart';
 
-import '../../../../core/services/easy_loader_service.dart';
-
 class BodySonanTimedUnTimedScreen extends GetView<AzkarDoaaController> {
   final dynamic dayAndNightSonan;
   const BodySonanTimedUnTimedScreen(

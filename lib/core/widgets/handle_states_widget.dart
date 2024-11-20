@@ -1,6 +1,5 @@
 import '../constants/app_enums.dart';
 import '../constants/app_colors.dart';
-import '../services/easy_loader_service.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
